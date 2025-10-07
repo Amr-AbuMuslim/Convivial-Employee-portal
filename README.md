@@ -11,7 +11,7 @@ featuring a beautiful UI, reusable components, and secure API integration.
 | Category | Technologies |
 |-----------|---------------|
 | Frontend | React.js (TypeScript), Vite |
-| UI | Tailwind CSS, Framer Motion, Lucide Icons |
+| UI | Vanilla CSS, Framer Motion, Lucide Icons |
 | State Management | React Hooks, Context API |
 | API | Axios |
 | Routing | React Router DOM |
@@ -84,17 +84,8 @@ To preview the build locally:
 `
 npm run preview
 `
-🌐 Deployment
-
-You can deploy the project to:
-
-Vercel
-
-Netlify
-
-GitHub Pages (with vite.config.ts adjustment)
 
 🧑‍💻 Author
 
 Amr AbuMuslim
-Passionate about Full-Stack Development & Cybersecurity
+Front-End Developer

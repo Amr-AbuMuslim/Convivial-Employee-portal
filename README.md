@@ -63,24 +63,27 @@ git clone https://github.com/Amr-AbuMuslim/Convivial-Employee-portal.git
 cd Convivial-Employee-portal
 
 2️⃣ Install dependencies
+`bash
 npm install
-
+`
 3️⃣ Run the development server
+`
 npm run dev
-
+`
 
 The app will be available at http://localhost:5173
 
 🏗️ Build for Production
+`
 npm run build
-
+`
 
 The production build will be generated inside the dist/ folder.
 
 To preview the build locally:
-
+`
 npm run preview
-
+`
 🌐 Deployment
 
 You can deploy the project to:

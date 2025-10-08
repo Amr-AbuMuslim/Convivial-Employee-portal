@@ -12,7 +12,7 @@ featuring a beautiful UI, reusable components, and secure API integration.
 |-----------|---------------|
 | Frontend | React.js (TypeScript), Vite |
 | UI | Vanilla CSS, Framer Motion, Lucide Icons |
-| State Management | React Hooks, Context API |
+| State Management | React Hooks, Redux  |
 | API | Axios |
 | Routing | React Router DOM |
 | Form Handling | Controlled Components |
@@ -23,7 +23,7 @@ featuring a beautiful UI, reusable components, and secure API integration.
 ## ⚙️ Features
 
 ✅ User Authentication (Create Password, Login, Logout)  
-✅ Role-based Access (Admin / User)  
+✅ Role-based Access (SUPER_ADMIN / USER)  
 ✅ Employee Management (Add, Edit, Delete, Pagination)  
 ✅ Team & Department Management  
 ✅ Responsive UI with Animations  
@@ -32,7 +32,7 @@ featuring a beautiful UI, reusable components, and secure API integration.
 
 ---
 
-## 📂 Project Structure
+## 📂 Summary about Project Structure
 
 project-root/
 ├── src/
@@ -40,12 +40,10 @@ project-root/
 │ ├── components/ # Reusable UI Components
 │ ├── pages/ # Page-level Components
 │ ├── hooks/ # Custom Hooks
-│ ├── assets/ # Images, Icons
-│ ├── styles/ # Global CSS
+│ ├── store/ # State Management
+│ ├── routes / # Protected Routes
 │ ├── main.tsx # Entry Point
 │ └── App.tsx # Root Component
-├── public/
-├── index.html
 ├── tsconfig.json
 ├── vite.config.ts
 └── package.json
